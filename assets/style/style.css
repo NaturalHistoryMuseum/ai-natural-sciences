@@ -4387,3 +4387,41 @@ table#schedule li{
     padding: 5px 0!important;
 }
 
+
+form input[type="radio"]{
+    display: inline-flex;
+    text-align: left;
+    line-height: 1.6;
+    align-items: center;
+    margin-right: 4px;
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
+    transform: scale(1.5);
+} 
+
+form .field-radio-options label{
+    display: inline-block;
+    font-size: 1em;
+    line-height: 1.5;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #FFFFFF;
+    cursor: pointer;    
+}
+
+form .field-radio-options label:first-of-type {
+    margin-right: 10px;
+}
+
+
+element {
+
+}
+table#schedule tr th:nth-child(-n+2) {
+
+    width: 110px !important;
+
+}
+table#schedule tbody tr.break{
+    background-color: #DEDEDE;
+}
